@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf6ec;
+  color: #4a2c14;
+}
+
+header {
+  background-color: #b5541b;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #7a3510;
+  padding: 0.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  background: #fffaf2;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #d8a26a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+section p {
+  text-align: justify;
+}
+
+figure {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #8a5a2c;
+  font-size: 0.9rem;
+}
+
+/* Espaço entre os artigos de receita */
+article {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e0c19a;
+}
+
+article:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Espaço entre título, texto e link dentro do artigo */
+article h3 {
+  margin-bottom: 0.5rem;
+}
+
+article p {
+  margin-bottom: 0.8rem;
+}
+
+article a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #b5541b;
+  font-weight: bold;
+}
+
+/* Corrige o recuo da lista de dicas (o reset zerou o padding) */
+article ol {
+  padding-left: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+article ol li {
+  margin-bottom: 0.4rem;
+}
+
+/* Lista de contato: recuo e espaço entre itens */
+#contato ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#contato ul li {
+  margin-bottom: 0.6rem;
+}
+
+.tabela {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #e0c19a;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #b5541b;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #fdf1e0;
+}
+
+footer {
+  background-color: #4a2c14;
+  color: #fdf6ec;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
